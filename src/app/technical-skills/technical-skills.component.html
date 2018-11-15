@@ -1,0 +1,4 @@
+<div *ngFor="let skill of skills">
+  <p>{{skill.name}}</p>
+  <mat-progress-bar [value]="skill.value" [mode]="skill.mode" [bufferValue]="skill.bufferValue" [color]="skill.color"></mat-progress-bar>
+</div>
