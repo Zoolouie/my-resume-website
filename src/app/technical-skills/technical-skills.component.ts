@@ -14,11 +14,39 @@ export class TechnicalSkillsComponent implements OnInit {
       name: 'Angular',
       color: 'primary',
       mode: 'determinate',
-      value: 50,
+      value: 90,
       bufferValue: 75
     },
     {
       name: 'C++',
+      color: 'primary',
+      mode: 'determinate',
+      value: 80,
+      bufferValue: 75
+    },
+    {
+      name: 'Python',
+      color: 'primary',
+      mode: 'determinate',
+      value: 70,
+      bufferValue: 75
+    },
+    {
+      name: 'mySQL/postGreSQL',
+      color: 'primary',
+      mode: 'determinate',
+      value: 50,
+      bufferValue: 75
+    },
+    {
+      name: 'Unity',
+      color: 'primary',
+      mode: 'determinate',
+      value: 50,
+      bufferValue: 75
+    },
+    {
+      name: 'Git',
       color: 'primary',
       mode: 'determinate',
       value: 50,
