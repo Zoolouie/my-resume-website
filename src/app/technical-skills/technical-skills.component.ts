@@ -28,25 +28,32 @@ export class TechnicalSkillsComponent implements OnInit {
       name: 'Python',
       color: 'primary',
       mode: 'determinate',
-      value: 70,
+      value: 80,
       bufferValue: 75
     },
     {
       name: 'mySQL/postGreSQL',
       color: 'primary',
       mode: 'determinate',
-      value: 50,
+      value: 60,
       bufferValue: 75
     },
     {
-      name: 'Unity',
+      name: 'Git',
+      color: 'primary',
+      mode: 'determinate',
+      value: 60,
+      bufferValue: 75
+    },
+    {
+      name: 'Linux',
       color: 'primary',
       mode: 'determinate',
       value: 50,
       bufferValue: 75
     },
     {
-      name: 'Git',
+      name: 'Gimp',
       color: 'primary',
       mode: 'determinate',
       value: 50,
@@ -58,7 +65,8 @@ export class TechnicalSkillsComponent implements OnInit {
       mode: 'determinate',
       value: 50,
       bufferValue: 75
-    }
+    },
+  
 
   ]
 

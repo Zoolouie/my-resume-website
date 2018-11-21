@@ -3,12 +3,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-.style-color-1 {
-    background-color: black;
+.style-color-green {
+    background-color: #5CDB95;
 }
 
-.style-color-2 {
-    background-color: black;
+.style-color-dark-blue {
+    background-color: #05386B;
 }
 
 .style-color-3 {
@@ -24,11 +24,19 @@
 }
 
 .text-color-white {
-    color:white;
+    color: #EDF5E1;
 }
 .text-color-4 {
-    color: #FF652F;
+    color: #23395B;
 }
 .text-color-5 {
-    color: #4EA5D9;
+    color: #EDF5E1;
 }
+
+.shadow{
+    -webkit-box-shadow: 10px 10px 80px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 80px 20px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 80px 20px rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 10;
+  }
