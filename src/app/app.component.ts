@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  hyperLink = "www.bugsplat.com";
+  imgLink = "../assets/img/bugsplat.PNG"
+  descrition = "my time at bugsplat"
 }

@@ -9,6 +9,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { ProjectsComponent } from './projects/projects.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ClickableLinkBoxComponent } from './clickable-link-box/clickable-link-box.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     AboutMeComponent,
     WorkExperienceComponent,
     ProjectsComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ClickableLinkBoxComponent
   ],
   imports: [
     BrowserModule,
