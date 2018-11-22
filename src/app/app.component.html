@@ -18,11 +18,19 @@
   <div class="main">
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
-          <app-clickable-link-box [hyperLink] = "hyperLink" [imgLink] = "imgLink" [description] = "description"></app-clickable-link-box>
+        <div class="col-md-6">
+          <app-clickable-link-box [information] = "bugSplat"></app-clickable-link-box>
         </div>
-        <div class="col-md-4">
-          I was doing jsut fine before I met you
+        <div class="col-md-6">
+          <app-clickable-link-box [information] = "buffLOL"></app-clickable-link-box>
+        </div>
+      </div>
+      <div class="row" style="padding-top:75px">
+        <div class="col-md-6">
+          <app-clickable-link-box [information] = "interests"></app-clickable-link-box>
+        </div>
+        <div class="col-md-6">
+          <app-clickable-link-box [information] = "courseAssistant"></app-clickable-link-box>
         </div>
       </div>
     </div>

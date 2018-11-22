@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { DescriptionBox } from '../app.component';
 
 @Component({
   selector: 'app-clickable-link-box',
@@ -7,10 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ClickableLinkBoxComponent implements OnInit {
 
-  @Input() hyperLink;
-  @Input() imgLink;
-  @Input() description;
-  
+  @Input() information: DescriptionBox;
+
   constructor() { }
 
   ngOnInit() {
