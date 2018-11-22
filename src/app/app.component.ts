@@ -29,7 +29,7 @@ export class AppComponent {
   courseAssistant = new DescriptionBox(this.courseAssistantLink, this.courseAssistantImgLink, this.courseAssistantTitle, this.courseAssistantDescription);
 
   interestsLink = "https://www.dropbox.com/sh/gxxhctfz5clgkfw/AAB8lgR0mfHjVVPFTHXRl4Gza?dl=0"
-  interestsImg = "../assets/img/IMG_0624.JPG"
+  interestsImg = "../assets/img/team.jpg"
   interestsDescription = `In my freetime I love cosplaying, playing Varsity video games, watching terrible horror movies and
   playing DnD. If you share any of the same interests, please drop me a Discord message and I'd love to chat!`
   interestsTitle = "My Interests"
