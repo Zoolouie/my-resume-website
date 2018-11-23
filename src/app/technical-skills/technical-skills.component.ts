@@ -60,10 +60,10 @@ export class TechnicalSkillsComponent implements OnInit {
       bufferValue: 75
     },
     {
-      name: 'Python',
+      name: 'Assembly',
       color: 'primary',
       mode: 'determinate',
-      value: 50,
+      value: 30,
       bufferValue: 75
     },
   
