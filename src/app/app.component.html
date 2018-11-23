@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <body>
   <div class="background">
     <div class="sidenav">
@@ -8,8 +9,6 @@
       </div>
       <app-social-media></app-social-media>
     </div>
-    <div style="width:500px; height:500px; z-index: 10">
-    </div>
 
     <app-social-media></app-social-media>
     <h1 style="color: #4F646F">
@@ -18,38 +17,26 @@
   </div>
   <div class="main">
     <div class="container">
-      <div class="row">
+      <div class="row row-size">
         <div class="col-md-6">
-          <app-clickable-link-box [information] = "bugSplat"></app-clickable-link-box>
+          <app-clickable-link-box [information]="bugSplat"></app-clickable-link-box>
         </div>
         <div class="col-md-6">
-          <app-clickable-link-box [information] = "buffLOL"></app-clickable-link-box>
+          <div style="margin-left:10px">
+            <app-clickable-link-box [information]="buffLOL"></app-clickable-link-box>
+          </div>
         </div>
       </div>
-      <div class="row" style="padding-top:75px">
+      <div class="row row-size row-padding-2" style="padding-top: 57px;">
         <div class="col-md-6">
-          <app-clickable-link-box [information] = "interests"></app-clickable-link-box>
+          <app-clickable-link-box [information]="interests"></app-clickable-link-box>
         </div>
         <div class="col-md-6">
-          <app-clickable-link-box [information] = "courseAssistant"></app-clickable-link-box>
+          <div style="margin-left:10px">
+            <app-clickable-link-box [information]="courseAssistant"></app-clickable-link-box>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </body>
-
-<!-- <div class="screen-filler style-color-green">
-  <div class="container">
-    <div class="row justify-content-md-center style-color-green" style="height:50%">
-      <div class="col-md-3 style-color-dark-blue shadow">
-        <app-social-media></app-social-media>
-      </div>
-      <div class="col-md-4 offset-md-1 style-color-dark-blue shadow">
-        <app-about-me></app-about-me>
-      </div>
-      <div class="col-md-3 offset-md-1 style-color-dark-blue shadow">
-        <app-technical-skills></app-technical-skills>
-      </div>
-    </div>
-  </div>
-</div> -->
