@@ -28,6 +28,13 @@
     height: 310px;
 }
 
+@media all and (max-width:400) {
+    .one {
+        width: 100%;
+        padding-top: 500px;
+    }
+}
+
 @media all and (max-width:800px) //800px for tablets and phones.
 {
     .one,.two
