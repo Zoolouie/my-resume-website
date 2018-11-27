@@ -34,6 +34,18 @@ export class AppComponent {
   playing DnD. If you share any of the same interests, please drop me a Discord message and I'd love to chat!`
   interestsTitle = "My Interests"
   interests = new DescriptionBox(this.interestsLink, this.interestsImg, this.interestsTitle, this.interestsDescription);
+
+  caTaLocatorLink = "https://github.com/Zoolouie/CATALOCATOR-ExecutableCode";
+  caTaLocatorImg = "assets/img/CATALocator.PNG";
+  caTaLocatorDescription = "I worked with a team of 5 students to create an app that makes finding office hours easier.";
+  caTaLocatorTitle = "Course Assistant Locator";
+  caTaLocator = new DescriptionBox(this.caTaLocatorLink, this.caTaLocatorImg, this.caTaLocatorTitle, this.caTaLocatorDescription);
+
+  gameDevLink = "https://github.com/Zoolouie?tab=repositories";
+  gameDevImg = "assets/img/RaptorQuest.PNG";
+  gameDevDescription = "I've created a text based adventure game, and also have some experience programming games in Unity. Check out Raptor Quest or Basic Shooter in my repositories!";
+  gameDevTitle = "Game Development";
+  gameDev = new DescriptionBox(this.gameDevLink, this.gameDevImg, this.gameDevTitle, this.gameDevDescription);
 }
 
 export class DescriptionBox {

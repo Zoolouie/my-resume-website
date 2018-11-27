@@ -11,7 +11,7 @@ export class TechnicalSkillsComponent implements OnInit {
   constructor() { }
   public skills = [
     {
-      name: 'Angular',
+      name: 'Angular/TypeScript',
       color: 'primary',
       mode: 'determinate',
       value: 90,
@@ -49,18 +49,18 @@ export class TechnicalSkillsComponent implements OnInit {
       name: 'Linux',
       color: 'primary',
       mode: 'determinate',
-      value: 50,
+      value: 40,
       bufferValue: 75
     },
     {
       name: 'Gimp',
       color: 'primary',
       mode: 'determinate',
-      value: 50,
+      value: 30,
       bufferValue: 75
     },
     {
-      name: 'Assembly',
+      name: 'Unity',
       color: 'primary',
       mode: 'determinate',
       value: 30,
