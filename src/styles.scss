@@ -25,9 +25,11 @@
 
 .text-color-white {
     color: #EDF5E1;
+    font-family: 'Montserrat';
 }
 .text-color-4 {
     color: #DB5461;
+    font-family: 'Montserrat';
 }
 .text-color-5 {
     color: #EDF5E1;
@@ -40,3 +42,8 @@
     position: relative;
     z-index: 10;
   }
+
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('https://fonts.googleapis.com/css?family=Montserrat'); /*URL to font*/
+}
